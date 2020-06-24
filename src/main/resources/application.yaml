@@ -1,0 +1,13 @@
+cache:
+  leveldb:
+    path: data/db
+app:
+  gateway: http://www.kuwo.cn
+  path: data/music
+spring:
+  redis:
+    host: 47.99.79.253
+    port: 6379
+    password: szaxr
+server:
+  port: 8008
